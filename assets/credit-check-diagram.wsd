@@ -1,0 +1,8 @@
+Home -> CheckCreditHistory:
+  [ratingId,companyName,ratingValue,dateRequested]
+CheckCreditHistory --> Home:
+CheckCreditHistory -> CheckCreditForm:
+CheckCreditForm -> CheckCreditItem: (companyName)
+CheckCreditItem --> CheckCreditHistory:
+  [ratingId,companyName,ratingValue,dateRequested]
+CheckCreditHistory --> Home:
