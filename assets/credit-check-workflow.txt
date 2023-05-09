@@ -1,0 +1,5 @@
+## Credit-Check Workflow
+Home -> CreditCheckHistory
+CreditCheckHistory -> CreditCheckForm(companyName) -> CreditCheckItem
+CreditCheckItem -> CreditCheckHistory
+CreditCheckHistory -> Home
